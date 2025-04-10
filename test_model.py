@@ -9,9 +9,9 @@ def predict_tweet(tweet_text):
     vectorized_text = vectorizer.transform([tweet_text])
     prediction = model.predict(vectorized_text)
     if prediction[0] == 1:
-        print("⚠️ This tweet is predicted as: Misogynistic (Label 1)\n")
+        print("This tweet is predicted as: Misogynistic (Label 1)\n")
     else:
-        print("✅ This tweet is predicted as: Normal (Label 0)\n")
+        print("This tweet is predicted as: Normal (Label 0)\n")
 
 # Keep checking tweets until the user decides to stop
 print("Harassment Detector — Type a tweet to check, or type 'exit' to quit.")
