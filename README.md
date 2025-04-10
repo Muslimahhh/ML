@@ -9,10 +9,7 @@ This project implements an AI-based machine learning model designed to detect an
 1. [Installation](#installation)
 2. [Setup Instructions](#setup-instructions)
 3. [Running the Model](#running-the-model)
-4. [Google Colab Setup](#google-colab-setup)
-5. [Contributing](#contributing)
-6. [License](#license)
-
+   
 ---
 
 ## **Installation**
