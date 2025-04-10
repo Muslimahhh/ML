@@ -90,27 +90,4 @@ Once everything is set up, you're ready to run the model:
   ```bash
   python test_model.py
   ```
-
----
-
-## **Google Colab Setup**
-
-If you’d rather run the project on Google Colab, no worries! Just follow these steps:
-
-1. **Open Google Colab**: Head over to [Google Colab](https://colab.research.google.com/).
-
-2. **Open from GitHub**:
-   - Click `File` > `Open notebook`.
-   - Go to the `GitHub` tab and paste the URL of your repository: `https://github.com/your-username/your-repo.git`.
-
-3. **Install Dependencies**: Once the notebook loads, install the required dependencies by running:
-
-   ```python
-   !pip install -r requirements.txt
-   ```
-
-4. **Run the Model**
-
-    After installing dependencies, you can run the model just like you would locally. It's all set up!
-
 Muslimah Sarumi | University of Bolton | 2025
