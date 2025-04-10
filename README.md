@@ -1,4 +1,4 @@
-```markdown
+
 # **AI-Based Harassment Detector for Social Media**
 
 This project implements an AI-based model to detect and filter misogynistic, abusive, or harmful comments targeted at women on social media platforms. The model is built using traditional machine learning methods and is designed to flag and remove inappropriate content in real-time.
