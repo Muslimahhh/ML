@@ -107,7 +107,6 @@ To run the project on Google Colab, you can use the following steps:
 
 4. **Run the Model**
 
-  After the dependencies are installed, you can execute the model's code as you would in a local setup.
+    After the dependencies are installed, you can execute the model's code as you would in a local setup.
 
-
-  Muslimah Sarumi | University of Bolton | 2025
+Muslimah Sarumi | University of Bolton | 2025
