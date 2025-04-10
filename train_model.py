@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import joblib
 
 # 2. Load Cleaned Data
-df = pd.read_csv('CleanedMisogynisticTweets.csv')
+df = pd.read_csv('Scripts/CleanedMisogynisticTweets.csv')
 
 # 3. TF-IDF Vectorization
 tfidf = TfidfVectorizer(max_features=5000, ngram_range=(1,2))
