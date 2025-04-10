@@ -1,3 +1,4 @@
+```markdown
 # **AI-Based Harassment Detector for Social Media**
 
 This project implements an AI-based model to detect and filter misogynistic, abusive, or harmful comments targeted at women on social media platforms. The model is built using traditional machine learning methods and is designed to flag and remove inappropriate content in real-time.
@@ -30,18 +31,24 @@ Start by cloning the project to your local machine using the following command:
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
+```
+
 ### 2. Navigate to the Project Directory
 
 Once cloned, navigate to the project directory:
 
 ```bash
 cd your-repo
+```
+
 ### 3. Set Up a Virtual Environment
 
 Create a new virtual environment to isolate your project dependencies:
 
 ```bash
 python -m venv venv
+```
+
 ### 4. Activate the Virtual Environment
 
 Activate the virtual environment to ensure that the dependencies are installed in an isolated environment:
@@ -50,17 +57,21 @@ Activate the virtual environment to ensure that the dependencies are installed i
 
   ```bash
   venv\Scripts\activate
-  
+  ```
+
 - On **MacOS**:
 
   ```bash
   source venv/bin/activate
+  ```
+
 ### 5. Install Dependencies
 
 Install all required dependencies using the `requirements.txt` file provided in the repository. Run the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## **Running the Model**
 
@@ -70,10 +81,13 @@ After the dependencies are installed, you can run the model.
 
   ```bash
   python train_model.py
+  ```
+
 - To **test** the model and see how it performs, execute:
 
   ```bash
   python test_model.py
+  ```
 
 ## **Google Colab Setup**
 
@@ -89,6 +103,9 @@ To run the project on Google Colab, you can use the following steps:
 
    ```python
    !pip install -r requirements.txt
-4. ### **Run the Model**
+   ```
+
+4. **Run the Model**
 
   After the dependencies are installed, you can execute the model's code as you would in a local setup.
+```
