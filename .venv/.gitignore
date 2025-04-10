@@ -1,0 +1,10 @@
+# Ignore the virtual environment folder and related files
+venv/
+pyvenv/
+include/
+lib/
+
+# Also, you can add any other common files that don't need to be uploaded
+*.pyc
+__pycache__/
+.DS_Store
