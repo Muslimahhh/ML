@@ -17,17 +17,17 @@ This project implements an AI-based machine learning model designed to detect an
 
 ## **Installation**
 
-To use this project, you’ll need to have Python installed on your system. Additionally, this project uses a virtual environment to manage dependencies. You can easily set up and install the necessary dependencies by following the instructions below.
+To get this project up and running, you’ll need Python installed on your system. We’ll also be using a virtual environment to keep all the dependencies organized (trust me, it’s way cleaner that way!). Just follow the steps below to get everything set up and ready for action.
 
 ---
 
 ## **Setup Instructions**
 
-Follow these steps to set up the project locally on your machine:
+Follow these steps to get the project running locally on your machine:
 
 ### 1. Clone the Repository
 
-Start by cloning the project to your local machine using the following command:
+First, clone the project to your local machine with this command:
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
@@ -35,7 +35,7 @@ git clone https://github.com/your-username/your-repo.git
 
 ### 2. Navigate to the Project Directory
 
-Once cloned, navigate to the project directory:
+Next, head into the project directory:
 
 ```bash
 cd your-repo
@@ -43,7 +43,7 @@ cd your-repo
 
 ### 3. Set Up a Virtual Environment
 
-Create a new virtual environment to isolate your project dependencies:
+Create a fresh virtual environment to keep your project dependencies clean and isolated:
 
 ```bash
 python -m venv venv
@@ -51,7 +51,7 @@ python -m venv venv
 
 ### 4. Activate the Virtual Environment
 
-Activate the virtual environment to ensure that the dependencies are installed in an isolated environment:
+Now, activate the virtual environment to make sure all the dependencies get installed in the right place:
 
 - On **Windows**:
 
@@ -67,39 +67,43 @@ Activate the virtual environment to ensure that the dependencies are installed i
 
 ### 5. Install Dependencies
 
-Install all required dependencies using the `requirements.txt` file provided in the repository. Run the following command:
+With your virtual environment up and running, install all the necessary dependencies from the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+---
+
 ## **Running the Model**
 
-After the dependencies are installed, you can run the model.
+Once everything is set up, you're ready to run the model:
 
-- To **train** the model and get an understanding of how it works, execute:
+- To **train** the model and understand how it works, run this command:
 
   ```bash
   python train_model.py
   ```
 
-- To **test** the model and see how it performs, execute:
+- To **test** the model and check out its performance, execute:
 
   ```bash
   python test_model.py
   ```
 
+---
+
 ## **Google Colab Setup**
 
-To run the project on Google Colab, you can use the following steps:
+If you’d rather run the project on Google Colab, no worries! Just follow these steps:
 
-1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/).
+1. **Open Google Colab**: Head over to [Google Colab](https://colab.research.google.com/).
 
 2. **Open from GitHub**:
    - Click `File` > `Open notebook`.
-   - Choose the `GitHub` tab and paste the URL of your repository: `https://github.com/your-username/your-repo.git`.
+   - Go to the `GitHub` tab and paste the URL of your repository: `https://github.com/your-username/your-repo.git`.
 
-3. **Install Dependencies**: Once the notebook is loaded in Google Colab, install the required dependencies by running:
+3. **Install Dependencies**: Once the notebook loads, install the required dependencies by running:
 
    ```python
    !pip install -r requirements.txt
@@ -107,6 +111,6 @@ To run the project on Google Colab, you can use the following steps:
 
 4. **Run the Model**
 
-    After the dependencies are installed, you can execute the model's code as you would in a local setup.
+    After installing dependencies, you can run the model just like you would locally. It's all set up!
 
 Muslimah Sarumi | University of Bolton | 2025
